@@ -1,0 +1,48 @@
+
+
+/*--- search bar div start --*/
+#searchdiv{
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    border-radius:30px ;
+    border: 0px solid gray;
+    height: 50px;
+    background-color: #f9fdff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#searchdiv >div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 30px;
+    border: 0.5px solid gray;
+    height: 100%;
+
+}
+#searchdiv >div> .s_img{
+    border-radius: 30px;
+    height: 80%;
+    width: 20%;
+
+}
+#searchdiv > div> input{
+  
+    border: 0px solid gray;
+    height: 80%;
+    width:80%;
+}
+
+#searchdiv > div> button {
+    border-radius: 30px;
+    border:none;
+    color: white;
+    background-color: #10837d;
+    height: 80%;
+    width: 10%;
+}
+
+
+/*--- search bar div end --*/
