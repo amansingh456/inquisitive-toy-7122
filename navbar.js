@@ -1,13 +1,35 @@
+import navBar from "./component/nav.js"
+
+
+//? Sticky Navbar ###########
+$(document).ready(function(){
+    $(document).scroll(function(){
+        var st = $(this).scrollTop();
+        if(st > 2) {
+            $("#navbar").addClass('fixed');
+        } else {
+            $("#navbar").removeClass('fixed');
+        }
+    });
+});
+
+//? Sticky Navbar Ends ###########
+
+
+
+
+
 document.querySelector("#open-popup").addEventListener("click",()=>{
-    console.log("aman")
+    console.log("singh")
     document.querySelector(".popup").classList.add("active")
 })
 
 
-document.querySelector(".popup .close-btn").addEventListener("click",()=>{
+document.querySelector(".popup #close-btn").addEventListener("click",()=>{
+    console.log("eee")
     document.querySelector(".popup").classList.remove("active")
-})
 
+})
 
 
 function pinChange () {
@@ -15,7 +37,7 @@ function pinChange () {
     let span = document.createElement("span")
     span.innerText  = `Select Pin\xa0`
     let img = document.createElement("img")
-    img.src = "./icons8-double-down-24.png"
+    img.src = "./Assets_imgs/icons8-double-down-24.png"
     img.id = "drop-down"
     p.append(span,img)
 
@@ -41,3 +63,5 @@ document.getElementById("open-popup").addEventListener("click",()=>{
     let pinValue = document.querySelector("#pinSearch")
     pinValue.value = null
 })
+
+

@@ -14,7 +14,7 @@ const foot = () => {
                 <div>
                     <img src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" />
                     <h4>Secure Payment</h4>
-                    <p>100% secure and trusted payment protection</p>
+                    <p>100% secure and trusted  payment protection</p>
                 </div>
                 <div>
                     <img src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" />
@@ -34,11 +34,11 @@ const foot = () => {
                     <div id="txt">Download the App for Free</div>
                     <div class="logflx">
                         <div class="log" id="google">
-                            <img src="./assets/google_play_logo_sort.png" alt="Google Play" />
+                            <img src="../inquisitive-toy-7122/Assets_imgs/google_play_logo_sort.png" alt="Google Play" />
                             <!-- <p>Google Play</p> -->
                         </div>
                         <div class="log" id="apple">
-                            <img src="./assets/apple_store_2_sort.png" alt="Apple Store" />
+                            <img src="../inquisitive-toy-7122/Assets_imgs/apple_store_2_sort.png" alt="Apple Store" />
                             <!-- <p>Apple Store</p> -->
                         </div>
                     </div>
@@ -93,10 +93,10 @@ const foot = () => {
                         </div>
                         <div id="social">
                             <h4>FOLLOW US</h4>
-                            <img src="./assets/icons8-instagram-32.png" alt="insta" id="insta">
-                            <img src="./assets/icons8-facebook-32.png" alt="fb" id="fb">
-                            <img src="./assets/icons8-youtube-32.png" alt="yt" id="yt">
-                            <img src="./assets/icons8-twitter-32.png" alt="twitter" id="twitter">
+                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-instagram-32.png" alt="insta" id="insta">
+                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-facebook-32.png" alt="fb" id="fb">
+                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-youtube-32.png" alt="yt" id="yt">
+                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-twitter-32.png" alt="twitter" id="twitter">
                             <iframe height="180" src="https://www.youtube.com/embed/a2HUAVYZ3Y8">
                             </iframe>
                         </div>
