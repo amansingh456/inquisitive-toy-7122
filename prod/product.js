@@ -939,7 +939,7 @@ getData = [
       return false;
     }
   
-    Data.map(function ({img1,title,striked,dis,price }) {
+    Data.map(function ({img1, img2, imgs1,imgs2,title,striked,dis,price }) {
       const div = document.createElement("div");
     
   
@@ -973,7 +973,7 @@ getData = [
         let P1 = new StoreDATA(img1,title,striked,dis,price);
         DATA_STORE.push(P1);
         localStorage.setItem("Details", JSON.stringify(DATA_STORE));
-        window.location.href = "index.html";
+        window.location.href = "productdetail.html";
       });
   
       container.append(div);

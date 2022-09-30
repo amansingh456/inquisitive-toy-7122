@@ -15,6 +15,13 @@
     transition: transform 1s;
 
   }
+  #Details{
+    box-shadow: 0 0 0.5em rgb(76, 74, 75);
+  }
+  #Grid{
+    box-shadow: 0 0 0.5em rgb(76, 74, 75);
+  
+  }
   #product >div:hover{
    
     border-radius: 1px solid red;
@@ -25,17 +32,22 @@
     width: 150px;
     height: 50px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-left: 100px;
     font-size: large;
+   
   }
   #btn>button:hover{
     background-color: pink;
    
   }
-  #Grid {
+  h1{
+    color: rgb(42, 39, 38);
+    margin-left: 100px;
+  }
+  #Details{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 80%;
+    /* grid-template-columns: repeat(3, 1fr); */
+  
     gap: 30px;
     margin: auto;
   }
@@ -43,3 +55,4 @@
     padding: 8px;
     text-align: center;
   }
+ 
