@@ -17,3 +17,4 @@ let footer_div = document.getElementById("footer")
 footer_div.innerHTML = foot()
 
 
+

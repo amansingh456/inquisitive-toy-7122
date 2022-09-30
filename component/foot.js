@@ -34,11 +34,11 @@ const foot = () => {
                     <div id="txt">Download the App for Free</div>
                     <div class="logflx">
                         <div class="log" id="google">
-                            <img src="../inquisitive-toy-7122/Assets_imgs/google_play_logo_sort.png" alt="Google Play" />
+                            <img src="google_play_logo_sort.png" alt="Google Play" />
                             <!-- <p>Google Play</p> -->
                         </div>
                         <div class="log" id="apple">
-                            <img src="../inquisitive-toy-7122/Assets_imgs/apple_store_2_sort.png" alt="Apple Store" />
+                            <img src="apple_store_2_sort.png" alt="Apple Store" />
                             <!-- <p>Apple Store</p> -->
                         </div>
                     </div>
@@ -93,10 +93,10 @@ const foot = () => {
                         </div>
                         <div id="social">
                             <h4>FOLLOW US</h4>
-                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-instagram-32.png" alt="insta" id="insta">
-                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-facebook-32.png" alt="fb" id="fb">
-                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-youtube-32.png" alt="yt" id="yt">
-                            <img src="../inquisitive-toy-7122/Assets_imgs/icons8-twitter-32.png" alt="twitter" id="twitter">
+                            <img src="icons8-instagram-32.png" alt="insta" id="insta">
+                            <img src="icons8-facebook-32.png" alt="fb" id="fb">
+                            <img src="icons8-youtube-32.png" alt="yt" id="yt">
+                            <img src="icons8-twitter-32.png" alt="twitter" id="twitter">
                             <iframe height="180" src="https://www.youtube.com/embed/a2HUAVYZ3Y8">
                             </iframe>
                         </div>

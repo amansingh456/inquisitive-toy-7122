@@ -87,7 +87,7 @@
     /* popup for pin-code  start ...... */
     .popup {
         position: fixed;
-        top: 50px;
+        top: 250px;
         right: 10px;
         opacity: 0;
         transform: scale(1.25);
@@ -97,6 +97,7 @@
         transition: top 0ms ease-in-out 200ms,
             opacity 200ms ease-in-out 0ms,
             transform 200ms ease-in-out 0ms;
+            z-index: 8;
     }
 
     .popup.active {
@@ -162,10 +163,88 @@
     /* popup for pin-code  end ...... */
 
 
+    /* Pop-up for login start */
+
+
+    .popuptwo {
+        position: fixed;
+        top: 550px;
+        right: 10px;
+        opacity: 0;
+        transform: scale(1.25);
+        background-color: #10847e;
+        width: 350px;
+        border-radius: 10px;
+        transition: top 0ms ease-in-out 200ms,
+            opacity 200ms ease-in-out 0ms,
+            transform 200ms ease-in-out 0ms;
+            z-index: 8;
+    }
+
+    .popuptwo.active {
+        top: 70px;
+        opacity: 1;
+        transform: scale(1);
+        transition: top 0ms ease-in-out 0ms,
+            opacity 200ms ease-in-out 0ms,
+            transform 200ms ease-in-out 0ms;
+    }
+
+    #close-btntwo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 15px;
+        cursor: pointer;
+
+    }
+
+    #close-btntwo:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .popuptwo .inputtwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popuptwo h2 {
+        margin-left: 20px;
+        color: #fff;
+    }
+
+    .popuptwo  input {
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        padding: 10px 5px;
+        outline: none;
+    }
+
+    .popuptwo  button{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border: none;
+        margin-bottom: 20px;
+        background-color: #fff;
+        color: #10847e;
+        font-weight: 600;
+        padding: 10px 5px;
+    }
 
 
 
-
+/* Popup-two end */
 
 
 
@@ -259,6 +338,9 @@
         background-color: #0b0b0c;
         ;
         padding: 10px;
+    }
+    #navpart3>#navigate{
+        opacity: 0.7;
     }
 
     #navpart3>div {

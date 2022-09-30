@@ -140,6 +140,12 @@
     border-radius: 6px;
     font-weight: 700;
     border:0px;
+    cursor: pointer;
+}
+.B2:hover{
+    background-color: #fff;
+    color: #f0a210;
+    border-radius: 1px solid #f0a210;
 }
 .DDDD2{
     height: 160%;

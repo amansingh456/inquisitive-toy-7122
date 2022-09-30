@@ -1013,7 +1013,7 @@ function openstore(storedata){
 
     localStorage.setItem("storedata",JSON.stringify(storedata));
     console.log(JSON.parse(localStorage.getItem("storedata")));
-    window.location.href="./pages/store.html"
+    window.location.href="store.html"
 }
 
 // ///////// store data sliding function end ////////////////////////////

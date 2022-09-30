@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="icon" href="https://pharmeasy.in/pe_logo_2x.png">
-    <link rel="stylesheet" href="./styles/searchbar.css">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/cubes.css">
-    <link rel="stylesheet" href="./styles/middleSection.css">
-    <link rel="stylesheet" href="./styles/lastPart.css">
-    <link rel="stylesheet" href="./styles/slides.css">
+    <link rel="stylesheet" href="searchbar.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="cubes.css">
+    <link rel="stylesheet" href="middleSection.css">
+    <link rel="stylesheet" href="lastPart.css">
+    <link rel="stylesheet" href="slides.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -28,64 +28,73 @@
     <section id="search">
 
     </section>
+
+
+
     <section id="cubes">
         <div id="all-cubes">
-            <div>
-                <img src="./images/medicine_ff.webp" alt="medicine_ff">
+            <div id="medi">
+                <img src="medicine_ff.webp" alt="medicine_ff">
                 <p>Medicine</p>
                 <h5>upto 20% off</h5>
             </div>
-            <div>
-                <img src="./images/labtest_ff.webp" alt="medicine_ff">
+            <div id="ltest">
+                <img src="labtest_ff.webp" alt="medicine_ff">
                 <p>Lab Tests</p>
                 <h5>upto 70% off</h5>
             </div>
-            <div>
-                <img src="./images/healthcare_ff.webp" alt="medicine_ff">
+            <div id="helcare">
+                <img src="healthcare_ff.webp" alt="medicine_ff">
                 <p>Health Care</p>
                 <h5>upto 60% off</h5>
             </div>
             <div>
-                <img src="./images/health_blogs_ff.webp" alt="medicine_ff">
+                <img src="health_blogs_ff.webp" alt="medicine_ff">
                 <p>Health Blogs</p>
                 <h5></h5>
             </div>
             <div>
-                <img src="./images/plus_ff.webp" alt="medicine_ff">
+                <img src="plus_ff.webp" alt="medicine_ff">
                 <p>PLUS</p>
                 <h5>upto 5% off</h5>
             </div>
-            <div>
-                <img src="./images/offers_ff.webp" alt="medicine_ff">
+            <div id="ofer">
+                <img src="offers_ff.webp" alt="medicine_ff">
                 <p>Offers</p>
                 <h5></h5>
             </div>
             <div>
-                <img src="./images/offers_1_ff.webp" alt="medicine_ff">
+                <img src="offers_1_ff.webp" alt="medicine_ff">
                 <p>Surgeries</p>
                 <h5></h5>
             </div>
             <div>
-                <img src="./images/value_store.png" alt="medicine_ff">
+                <img src="value_store.png" alt="medicine_ff">
                 <p>Value Store</p>
                 <h5>upto 50% off</h5>
             </div>
         </div>
     </section>
+
+
+
     <section id="slides">
         <div class="sliddiv" id="slids">
             <!--images div 5 sub div onhover arrow slide without arrow -->
-        
+
             <img id="left_arrow" class="arrow" onclick="change()"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDivb9dMOI8vBylwFvoyktttU-pgqwGKe1eA&usqp=CAU"
-              alt="arrow1" />
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDivb9dMOI8vBylwFvoyktttU-pgqwGKe1eA&usqp=CAU"
+                alt="arrow1" />
             <div id="slid1"></div>
             <div id="slid2"></div>
             <div id="slid3"></div>
-            <img id="right_arrow" class="arrow2" onclick="change()" src="https://www.svgrepo.com/show/4943/right-arrow.svg"
-              alt="arrow2" />
-          </div>
+            <img id="right_arrow" class="arrow2" onclick="change()"
+                src="https://www.svgrepo.com/show/4943/right-arrow.svg" alt="arrow2" />
+        </div>
     </section>
+
+
+
     <section id="middle">
 
 
@@ -122,7 +131,7 @@
                     </div>
                 </div>
 
-                <button class="B2">Order Now</button>
+                <button class="B2" id="helt">Order Now</button>
             </div>
 
 
@@ -136,11 +145,11 @@
                     </div>
                 </div>
 
-                <button class="B3">Order Now</button>
+                <button class="B3" id="lab">Order Now</button>
             </div>
         </div>
 
-        
+
 
 
         <div id="offersJustForYou">
@@ -443,7 +452,7 @@
 
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg" alt="">
                         <h3 class="h3">Testostorone</h3>
@@ -458,7 +467,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg" alt="">
                         <h3 class="h3">Comprehensive Full Body Check..</h3>
@@ -473,7 +482,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg" alt="">
                         <h3 class="h3">HbA1c(Glycoslyated Hemoglobin)</h3>
@@ -488,7 +497,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/51ffd21a.svg" alt="">
                         <h3 class="h3">Healthy 2022 Full body checkup</h3>
@@ -503,7 +512,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
                         <h3 class="h3">Thyroid Stimulating Harmone(..</h3>
@@ -518,7 +527,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
                         <h3 class="h3">Urine Culture</h3>
@@ -533,7 +542,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/51ffd21a.svg" alt="">
                         <h3 class="h3">Advance Full Body Checkup</h3>
@@ -548,7 +557,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/51ffd21a.svg" alt="">
                         <h3 class="h3">Womens Advance Healthcare</h3>
@@ -563,7 +572,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
                         <img class="imgte" src="https://assets.pharmeasy.in/web-assets/dist/909edb3f.svg" alt="">
                         <h3 class="h3">C-Reactive protien ..</h3>
@@ -578,7 +587,7 @@
                     </a>
                 </div>
                 <div class="box" style="background-color:#10847e ;">
-                    <a href="">
+                    <a>
                         <div id="fordanda"></div>
 
 
@@ -808,7 +817,7 @@
         <div id="wcu">
             <h2>Why Choose US ?</h2>
             <div class="achievep">
-                
+
                 <div class="achievec">
                     <img src="https://assets.pharmeasy.in/web-assets/dist/4d2f7c48.svg">
                     <div>32 Million +</div>
@@ -836,47 +845,56 @@
 
         <div id="customerouterdiv">
             <h2 id="cheading">What our customers have to say</h2>
-                <section class="customersection">
-                  
-                  <div id="customers">
-                      <div class="customerbox">
-                          <div>
-                              <p class="customername">Rajarshi Sarkar</p>
-                              <p class="customerdate">April 22,2020</p>
-                          </div>
-                          <div class="customerreviewbox">
-                              <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                              <p>"The app is really wonderful. Being a Product Manager myself, I would say that the User experience (UI/UX) of the app is top notch (easy to use, simple and convenient). Coming to services and delivery, I would say Pharmeasy is doing a tremendous job even during this unprecedented pandemic situation."</p>
-                          </div>
-                      </div>
-                      <div class="customerbox">
-                          <div>
-                              <p class="customername">Darpan Dholakia</p>
-                              <p class="customerdate">April 23,2020</p>
-                          </div>
-                          <div class="customerreviewbox">
-                              <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                              <p>"Best service and app amongst all available. I have been using it for more than 3 years, and even during the pandemic, they have kept their standards high and are delivering the order within 24 hours. Keep up the good work."</p>
-                          </div>
-                      </div>
-                      <div class="customerbox">
-                          <div>
-                              <p class="customername">Lipi Chaudhuri</p>
-                              <p class="customerdate">April 15,2020</p>
-                          </div>
-                          <div class="customerreviewbox">
-                              <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                              <p>"This app is a game changer for me. I am unable to go out always to buy medicinal products. Pharmeasy gives me the last liberty to shop essential healthcare products from home. The app is very user friendly and me being an elderly person do not find any difficulty in using it. They deliver well in time. Thanks😊"</p>
-                          </div>
-                      </div>
-                      <div class="customerbox">
+            <section class="customersection">
+
+                <div id="customers">
+                    <div class="customerbox">
+                        <div>
+                            <p class="customername">Rajarshi Sarkar</p>
+                            <p class="customerdate">April 22,2020</p>
+                        </div>
+                        <div class="customerreviewbox">
+                            <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
+                            <p>"The app is really wonderful. Being a Product Manager myself, I would say that the User
+                                experience (UI/UX) of the app is top notch (easy to use, simple and convenient). Coming
+                                to services and delivery, I would say Pharmeasy is doing a tremendous job even during
+                                this unprecedented pandemic situation."</p>
+                        </div>
+                    </div>
+                    <div class="customerbox">
+                        <div>
+                            <p class="customername">Darpan Dholakia</p>
+                            <p class="customerdate">April 23,2020</p>
+                        </div>
+                        <div class="customerreviewbox">
+                            <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
+                            <p>"Best service and app amongst all available. I have been using it for more than 3 years,
+                                and even during the pandemic, they have kept their standards high and are delivering the
+                                order within 24 hours. Keep up the good work."</p>
+                        </div>
+                    </div>
+                    <div class="customerbox">
+                        <div>
+                            <p class="customername">Lipi Chaudhuri</p>
+                            <p class="customerdate">April 15,2020</p>
+                        </div>
+                        <div class="customerreviewbox">
+                            <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
+                            <p>"This app is a game changer for me. I am unable to go out always to buy medicinal
+                                products. Pharmeasy gives me the last liberty to shop essential healthcare products from
+                                home. The app is very user friendly and me being an elderly person do not find any
+                                difficulty in using it. They deliver well in time. Thanks😊"</p>
+                        </div>
+                    </div>
+                    <div class="customerbox">
                         <div>
                             <p class="customername">Tirthankar Das</p>
                             <p class="customerdate">April 23,2020</p>
                         </div>
                         <div class="customerreviewbox">
                             <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                            <p>"Very good app. Would recommend it to everyone requiring fast and efficient delivery of medicinal products at the doorstep."</p>
+                            <p>"Very good app. Would recommend it to everyone requiring fast and efficient delivery of
+                                medicinal products at the doorstep."</p>
                         </div>
                     </div>
                     <div class="customerbox">
@@ -886,7 +904,9 @@
                         </div>
                         <div class="customerreviewbox">
                             <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                            <p>"I've had a good experience. The consultation with a doctor feature works well too. The prices and discounts are great too. Overall the simplicity of the app is a plus too. I recommend this app. Will always be a customer/user now! Genuinely!"</p>
+                            <p>"I've had a good experience. The consultation with a doctor feature works well too. The
+                                prices and discounts are great too. Overall the simplicity of the app is a plus too. I
+                                recommend this app. Will always be a customer/user now! Genuinely!"</p>
                         </div>
                     </div>
                     <div class="customerbox">
@@ -896,7 +916,9 @@
                         </div>
                         <div class="customerreviewbox">
                             <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                            <p>"Excellent experience. Pharmeasy has not let it's customers down during lockdown. Thanks team. Great job. The application is also very smooth. And does its job well with an attractive UI and easy to use features. Good job developer."</p>
+                            <p>"Excellent experience. Pharmeasy has not let it's customers down during lockdown. Thanks
+                                team. Great job. The application is also very smooth. And does its job well with an
+                                attractive UI and easy to use features. Good job developer."</p>
                         </div>
                     </div>
                     <div class="customerbox">
@@ -906,13 +928,14 @@
                         </div>
                         <div class="customerreviewbox">
                             <img src="https://pharmeasy.in/_next/image?url=%2Ficons%2Fquote_sign.svg&w=48&q=75" alt="">
-                            <p>"Very helpful and friendly app in terms of usability, customer support & money saving from the point of medical necessity of every person."</p>
+                            <p>"Very helpful and friendly app in terms of usability, customer support & money saving
+                                from the point of medical necessity of every person."</p>
                         </div>
                     </div>
-                      
-                  </div>
-                </section>
-            </div>
+
+                </div>
+            </section>
+        </div>
 
     </section>
 
@@ -924,5 +947,6 @@
 </html>
 <script type="module" src="index.js"></script>
 <script type="module" src="navbar.js"></script>
-<script src="./appendFeatured.js"></script>
+<script src="appendFeatured.js"></script>
 <script src="slides.js"></script>
+
