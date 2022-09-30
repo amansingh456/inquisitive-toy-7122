@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--fw20_0095-->
+    <title>PharmEasy: Online Pharmacy & Medical Store in India | 50 Lakhs+ Customers.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="icon" href="https://pharmeasy.in/pe_logo_2x.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./search/searchbar.css">
+    <link rel="stylesheet" href="./div_slider.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d8ae9b778f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!--section5 head nav bar  by sadichchha start-->
+  <section>
+
+    <nav>
+
+    </nav> 
+</section>
+<!--section5head nav bar by sadichchha end -->
+
+    <!--section1 start fw20_0095--->
+        <section >
+             <!-- search bar div start -->
+            <div id="search" class="smalldiv">
+            
+                <div class="searchone">
+                    <h3>What are you looking for?</h3>
+                  <!--  <div><i class="fa-light fa-memo"></i>
+                        <span id="order_sp">Order with prescription.</span>
+                        <span id="upload"><a href="#">Upload Now </a><i class="fa-light fa-angle-right"></i></span></div>-->
+                    
+                </div>
+                    <div id="searchdiv">
+                        <!--import srarch div as used in multiple places-->
+                    </div>
+        
+            </div>
+         <!-- search bar end-->
+        </section>
+        <!--       -->
+        <section >
+        <div  >
+      <div id="type" class="div2" >
+
+      </div>
+  </div>
+       
+</section>
+     
+  <!--slider div--starts-->
+<section>      
+  <div class="sliddiv" id="slids">
+    <!--images div 5 sub div onhover arrow slide without arrow -->
+   
+    <img id="left_arrow" class="arrow" onclick="change()"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDivb9dMOI8vBylwFvoyktttU-pgqwGKe1eA&usqp=CAU"
+    alt="arrow1"
+  />   
+   <div id="slid1"> 
+</div>
+   <div id="slid2"></div>
+   <div id="slid3">  
+  
+   </div><img id="right_arrow" class="arrow" onclick="change()"
+   src="https://www.svgrepo.com/show/4943/right-arrow.svg"
+   alt="arrow2"
+ /></div>
+   
+</section>
+<section>
+     <!--slider div--ends-->
+        <div id="div3" > <!--Offers Just for You 3 small sub dive with a img and p tag -->
+            <h3>Offers Just for You</h3>
+            <div>
+            <div class="small"><img src="https://cms-contents.pharmeasy.in/offer/5ff570b46e0-PELOGO.jpg?dim=1440x0" alt="1">
+                <span>Flat 25% off on first 3 medicine orders.</span>
+             </div>
+             <div class="small"><img src="https://cms-contents.pharmeasy.in/offer/5ff570b46e0-PELOGO.jpg?dim=1440x0" alt="2">
+                <span>Flat 27% off + up to Rs.5000 surprise cashback</span>
+            </div>
+            <div class="small"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnIRiLOAyieYmeijDEmUWzbO3u1Y_YrrQjkQ&usqp=CAU" alt="3">
+                <span>Log in to view more offers</span>
+            </div></div>
+        </div>
+        <!--slider-->
+      </section>
+    <section>
+        <!--       -->
+        <div class="cat"> <!--Shop by Categories 16 sub div- 7 at a time show arrow -->
+            <h3>Shop by Categories</h3>
+            <div class="div2" id="Categories">
+        </div>
+        </div>
+
+        </section>
+     <!--section1 end-->
+
+   
+      <!--section2 start-->
+      <section>
+        <div class="large"> <!--Order with Prescription : a  div with 2 sub div flex property 1 img 2p button , 1 heading 4 snap-->
+            <div class="middiv">
+                <div id="ord1"><h3>Order with Prescription</h3>
+                    <span>Upload prescription and we will deliver your medicines</span>
+                    <img src="https://assets.pharmeasy.in/apothecary/images/rx_upload.svg?dim=1440x0" alt="1">
+                <button id="upload">upload</button></div>
+                <div id="ord2"><div id="one"><span>How does this work?</span></div>
+                <div id="two">
+                        <span>Upload a photo of your prescription</span>
+                        <span>Add delivery address and place the order</span>
+                        <span>We will call you to confirm the medicines</span>
+                        <span>Now, sit back! your medicines will get delivered at your doorstep</span> 
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="large" > <!--New Launches p , 6 subdiv img then title mrp and discount (no arrow )-->
+           <!--<h4>New Launches</h4>
+            <span>New wellness range just for you!</span>>-->
+            <div id="Launches"></div>
+        </div>
+       <!-- <div class="large" > <--Trending Near You  p , 6 subdiv img then title mrp and discount (with arrow ) on click arrow slide more 6 div 
+            <h3>Trending Near You</h3>
+        </div>-->
+        <div id="div_slider"> <!--Lab Tests by Health Concern width 100% background light blue , p , 6 titles  div , 6 sub dives with img ,
+             end div 3 sub div p p dash  ,p button , img -->
+             <h3>Lab Tests by Health Concern</h3>
+             
+             <div class="slider">
+                <div class="slide-track">
+               
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/777a9fe8c6a-6.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/ac76496b9bd-1.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/1ffc6f347ca-3.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/a33c6275845-10.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/02892662de6-8.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/f09b27cd9f0-2.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/56ced7ae864-7.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/b8bac457aba-9.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/7f306ab7187-4.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/07ee0649cfb-5.png?dim=256x0" alt="">
+                </div>
+            
+               
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/777a9fe8c6a-6.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/ac76496b9bd-1.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/1ffc6f347ca-3.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/a33c6275845-10.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/02892662de6-8.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/f09b27cd9f0-2.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/56ced7ae864-7.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/b8bac457aba-9.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/7f306ab7187-4.png?dim=256x0" alt="">
+                </div>
+                <div class="slide">
+                  <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/07ee0649cfb-5.png?dim=256x0" alt="">
+                </div>
+             
+              </div>
+            </div>
+            </div>
+          
+        <div class="small2"> <!-- Shop by Concern p , 7 sub div img(border redious 50%) with title -->
+            <h3> Shop by Concern</h3>
+            <span>Products are handpicked by experts</span>
+            <div><div> 
+            <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/923a665cc6f-Skin_care.png?dim=128x0" alt="">
+            <span>skin care</span>
+            </div>
+            <div><img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/18d2e2ee86b-Vitamins.png?dim=128x0" alt="">
+            <span>Vitamins & Supplement</span></div>
+            <div> 
+                <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/923a665cc6f-Skin_care.png?dim=128x0" alt="">
+                <span>skin care</span>
+                </div>
+                <div><img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/18d2e2ee86b-Vitamins.png?dim=128x0" alt="">
+                <span>Vitamins & Supplement</span></div>
+                <div> 
+                    <img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/923a665cc6f-Skin_care.png?dim=128x0" alt="">
+                    <span>skin care</span>
+                    </div>
+                    <div><img src="https://cms-contents.pharmeasy.in/homepage_top_categories_images/18d2e2ee86b-Vitamins.png?dim=128x0" alt="">
+                    <span>Vitamins & Supplement</span></div>
+                   
+                      </div>
+          
+        </div>
+        <!--fw20_0095--->
+      </section>
+     <!--section2 end-->
+   
+
+    <!--section3 start-->
+     <!-- <section>
+        <div class="large"  id="Articles"> <--Frequently Booked Lab Tests
+            <h3>Health Articles</h3>
+            <div></div>
+        </div>
+
+        <div class="large" id="wellness"> <--Wellness Essentials of the Week
+            <h3>Wellness Essentials of the Week</h3>
+            <div></div>
+        </div>
+       <--Featured Brands-->
+        <div class="cat"> 
+          
+          <div> <div class="storeslide">
+
+            <h2 class="storeslideheading">Featured Brands</h2>
+            <span id="spre" class="storebtn">&#139;</span>
+            <span id="snex" class="storebtn">&#155;</span>
+            <section class="sliders">
+
+            </section>
+
+        </div></div>
+      </div>
+          
+
+        <!--Featured Brands-->
+       <!-- </div>
+        <div class="large" > <--Deals of the Day
+            <h3>Deals of the Day</h3>
+            <div id="Deals"></div>
+        </div>
+        <div class="large"> <--In the Spotlight
+            <h3>In the Spotlight</h3>
+            <div></div>
+        </div>
+    </section>-->
+     <!--section3 end-->
+
+   
+     <!--section4 start-->
+   <!-- <section>
+        <div> <--4 sub at a time  img div with arrow on arrow slide  7 slides</div>
+        <div class="large"> <--Health Articles
+            <h3>Health Articles</h3></div>
+      
+    </section>-->
+     <!--section4 end-->
+
+     <!--section5 footer -->
+     <section>
+        <div id="footer">
+            <!--import footer--></div>
+     </section>
+     <!--section5 footer end-->
+
+
+
+</body>
+<script type="module" src="./index.js"></script>
+<script type="module" src="navbar.js"></script>
+<script src="./appendFeatured.js"></script>
+</html>
