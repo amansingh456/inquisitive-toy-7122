@@ -222,7 +222,7 @@ document.getElementById("concerns").addEventListener("click",()=>{
 
 document.getElementById("app").addEventListener("click",()=>{
     console.log("amansr")
-    window.location.href = "https://play.google.com/store/search?q=pharmeasy&c=apps"
+    // window.location.href = "https://play.google.com/store/search?q=pharmeasy&c=apps"
 })
 
 

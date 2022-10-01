@@ -87,7 +87,7 @@
     /* popup for pin-code  start ...... */
     .popup {
         position: fixed;
-        top: 250px;
+        top: 1250px;
         right: 10px;
         opacity: 0;
         transform: scale(1.25);
@@ -168,7 +168,7 @@
 
     .popuptwo {
         position: fixed;
-        top: 550px;
+        top: 1550px;
         right: 10px;
         opacity: 0;
         transform: scale(1.25);
