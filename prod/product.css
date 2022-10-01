@@ -13,7 +13,6 @@
     text-align: center;
     box-shadow: 0 0 0.5em rgb(76, 74, 75);
     transition: transform 1s;
-
   }
   #Details{
     box-shadow: 0 0 0.5em rgb(76, 74, 75);
@@ -55,4 +54,5 @@
     padding: 8px;
     text-align: center;
   }
+  
  
