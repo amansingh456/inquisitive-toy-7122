@@ -1,11 +1,11 @@
-// Featured Brands & slides 
+// //! Featured Brands & slides start ###########################
 
 
 
 
 var l =0;
 var span1 = document.getElementById("spre").addEventListener("click",()=>{
- 
+   console.log("aman")
    l++;
    for(var i of div)
    {
@@ -18,7 +18,7 @@ var span1 = document.getElementById("spre").addEventListener("click",()=>{
    }
 })    
 var span2 = document.getElementById("snex").addEventListener("click",()=>{
- 
+   console.log("singh")
       l--;
        for(var i of div)
        {
@@ -29,7 +29,14 @@ var span2 = document.getElementById("snex").addEventListener("click",()=>{
            if(l<0){l=0;}
        }
 })
-var div = document.getElementsByClassName("storediv");
+var div = document.getElementsByClassName("storediv")
+
+
+
+
+
+
+
 
 
 
@@ -986,7 +993,7 @@ var data = [
 ]
 ]
 ]
-//  sildin stores starts 
+// //////////// sildin stores starts ///////////////////
 data.map(function(el){
     var card = document.createElement("div")
     card.setAttribute("class","storediv")
@@ -1006,9 +1013,9 @@ function openstore(storedata){
 
     localStorage.setItem("storedata",JSON.stringify(storedata));
     console.log(JSON.parse(localStorage.getItem("storedata")));
-    window.location.href="./pages/store.html"
+    window.location.href="store.html"
 }
 
-// store data sliding function end 
+// ///////// store data sliding function end ////////////////////////////
 
-//  featured brand & slides end 
+// //! featured brand & slides end ########### 
