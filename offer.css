@@ -1,0 +1,318 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    font-family: Poppins;
+}
+/* readmore button */
+/* #header{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 20px;
+}
+.para{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.para+h3{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#myBtn,#myBtns{
+    font-size: medium;
+    font-weight:bold;
+    color: teal;
+    border: none;
+}
+/* .coupon_code */
+/* #couponcode{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    
+}
+#maindiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.coupon_img{
+    display: inline-block;
+    width: 35%;
+}
+.coupon_code{
+    width: 310%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.title_p{
+    width: 60vh;
+    color: rgb(75, 75, 75);
+}
+.coupon_code2{
+    color: teal;
+    text-transform: uppercase;
+} */
+
+/* buttons */
+/* #btn{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+.filterbtn{
+    padding: 10px;
+    margin-left: 9px;
+    border-radius: 18px;
+    border: 1px solid rgb(192, 192, 192);
+}
+#count{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    line-height: 4vh;
+}
+#Disclaimer{
+    width: 85%;
+    margin: auto;
+} */
+
+
+/* QNA Section */
+
+/* .questions-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.question button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.question p{
+    font-size: bold;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+} */ */
+
+/*add this class when click*/
+/* .question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}
+@media screen and (max-width: 900px) {
+    #couponcode{
+        width:80%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+    }
+    #maindiv{
+        overflow-x: hidden;
+    }
+} */ */
+*{
+    box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#offercontainer {
+    width: 70%;
+    margin: 30px auto;
+    margin-top: 20px;
+    padding: 50px 0px;
+  }
+
+  #home>span {
+    color: grey;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+
+  #home>h1 {
+    color: rgb(79, 88, 94);
+  }
+
+  #button {
+    display: flex;
+    margin-left: 5px;
+  }
+
+  #button>.a1 {
+    border: 2px solid rgb(247, 247, 247);
+
+    margin-right: 15px;
+    border-radius: 25px;
+    padding: 4px 15px;
+    text-align: center;
+  }
+
+  #blocks {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+  }
+
+  .b11 {
+    border: 1px solid rgb(247, 247, 247);
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    flex: 5;
+  }
+
+  .box>.b11>.off>h4 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 90%;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+  .box>.b11>.off>h5 {
+    border: 1px solid rgb(247, 247, 247);
+    width: 90%;
+    /* margin-top: -25px; */
+    margin-left: 25px;
+  }
+
+  .b11>img {
+    width: 15%;
+    margin-top: 25px;
+    height: 60px;
+
+    flex: 1;
+  }
+
+  .box>.b11>.off>h6 {
+    color: red;
+    margin-left: -42px;
+  }
+  .tab button .active{
+    background-color: #3bb896;
+  }
+  .tab button:hover {
+background-color:#3bb896;
+
+}
+
+  
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: rgb(79, 88, 94);
+    width: 47%;
+    margin: 2% 1.5%;
+
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  }
+
+  .code {
+    width: 95%;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    border-top: 1px dotted black;
+  }
+
+  .code>p>a {
+    margin-left: 17%;
+    color: teal;
+  }
+
+  .code>p {
+    color: rgb(79, 88, 94);
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .questions-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.question button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.question p{
+    font-size: bold;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+}
+
+/*add this class when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}
+/* @media screen and (max-width: 900px) {
+    #couponcode{
+        width:80%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+    }
+    #maindiv{
+        overflow-x: hidden;
+    }
+} */
