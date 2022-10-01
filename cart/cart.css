@@ -1,0 +1,91 @@
+div{
+    /*border: 1px solid black;*/
+}
+
+#UpMid{
+    display: flex;
+}
+
+#left{
+    width: 60%;
+}
+          #left h1{
+            margin-left: 230px;
+          }
+          #green{
+             background-color: #10847e;
+             height: 170px;
+             width: 65%;
+             margin-left: 230px;
+             border-radius: 7px;
+          }
+                     #three{
+                        display: flex;
+                        column-gap: 70px;
+                        margin-top: 30px;
+                        margin-left: 13px;
+                        color: white;
+                        padding-top: 20px;
+                     }
+                    
+                    #green h1{
+                        font-size: 19px;
+                        margin-left: 13px;
+                        color: white;
+                        margin-top: 30px;
+                     }
+                     #search{
+                        background-color: white;
+                        height: 40px;
+                        width: 550px;
+                        margin-left: 13px;
+                        border-radius: 5px;
+                     }      
+                     #CartSearch{
+                        border: none;
+                        height: 40px;
+                        width: 550px;
+                        border-radius: 5px;
+                        margin-left: px;
+                     }     
+
+#right{
+    width: 40%;
+    color: #8897a2;
+    margin-top: 20px;
+}
+#del1{
+    margin-left: 250px;
+}
+#cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3px;
+    color: black;
+    
+}
+.same{
+  border: 5px solid #10847e;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #10847e;
+  color: white;
+}
+.same img{
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.same h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    margin-bottom: 20px;
+}
