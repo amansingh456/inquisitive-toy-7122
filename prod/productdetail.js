@@ -17,7 +17,8 @@ container.innerHTML = null;
       image.style.width = "20%";
       image.style.height = "520px";
   
-      image.alt = "I am not here";
+      image.alt = "I am not here"
+      ;
   
       
       

@@ -21,6 +21,7 @@ getData = [
       dis:"35% OFF",
       price:"71.50",
   },
+  
   {
       img1:"https://cdn01.pharmeasy.in/dam/products_otc/U86347/baidyanath-isabgol-psyllium-husk-powdereffective-constipation-reliefrich-fibre-supplement-200g-2-1643876617.jpg?dim=320x320&dpr=1&q=100",
       img2:"https://pharmeasy.in/_next/image?url=https%3A%2F%2Fcdn01.pharmeasy.in%2Fdam%2Fproducts_otc%2FU86347%2Fbaidyanath-isabgol-psyllium-husk-powdereffective-constipation-reliefrich-fibre-supplement-200g-3-1643876719.jpg&w=256&q=75",

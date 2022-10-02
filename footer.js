@@ -13,7 +13,7 @@ footer_div.innerHTML = foot()
 
 //*  onclick link for another pages.....
 
-let google = document.getElementById("google").addEventListener("click", () => {
+let google =  document.getElementById("google").addEventListener("click", () => {
     window.location.href = "https://play.google.com/store/search?q=pharmeasy&c=apps"
 })
 

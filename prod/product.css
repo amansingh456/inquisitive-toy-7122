@@ -21,6 +21,7 @@
     box-shadow: 0 0 0.5em rgb(76, 74, 75);
   
   }
+  
   #product >div:hover{
    
     border-radius: 1px solid red;
