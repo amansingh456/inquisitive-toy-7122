@@ -13,4 +13,4 @@ My role and Responsibility : Making navbar Footer and medicine Page.
 How it is look like?
 ![image](https://user-images.githubusercontent.com/110052591/209664174-59922c86-b1d6-471b-8f95-229ae792406a.png)
 
-Responsive: Website is not fully responsive we are working on that.
+Responsive: Website is not fully responsive we are working on makin responsive.
