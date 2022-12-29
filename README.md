@@ -11,6 +11,6 @@ It Bulid Using HTML,CSS,Javascript.
 My role and Responsibility : Making navbar Footer and landing page.
 
 How it is look like?
-![image](https://user-images.githubusercontent.com/110052591/209664174-59922c86-b1d6-471b-8f95-229ae792406a.png)
+![image](https://user-images.githubusercontent.com/110052591/209905831-fb51aa4c-4e9e-45ea-bc87-86ee4a528421.png)
 
 Responsive: Website is not fully responsive we are working on makin responsive.
