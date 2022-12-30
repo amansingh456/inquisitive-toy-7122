@@ -3,7 +3,7 @@
 PharmEasy is an Indian e-pharmacy company that sells medicines, diagnostics and telehealth online.
 
 
-Netlify link: https://soft-travesseiro-99438e.netlify.app/
+Netlify link:https://pharmeasyclonenik.netlify.app/
 This is the Group project with five team Members.Bulid in Construct Week.
 
 
